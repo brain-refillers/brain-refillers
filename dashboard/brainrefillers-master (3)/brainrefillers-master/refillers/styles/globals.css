@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+@layer components{
+    .profileContainer{
+        width:70%;
+
+    }
+    .dashboardFont{
+        font-size:40px;
+    }
+    .chapterContainer{
+        width:40%;
+    }
+    .pointsContainer{
+        width:30%;
+        @apply text-xl rounded-lg text-center px-2 py-6;
+    }
+    .sidebarWidth{
+        width:30%;
+        height:100vh;
+    }
+    .loginInput{
+        width:100%;
+    }
+    .loginContainer{
+        width:38%;
+    }
+    .signupMainContainer{
+        height:100vh;
+    }
+    .signupInput{
+        width:40%;
+    }
+    .mainFont{
+        font-family: 'Aboreto', cursive;
+    }
+    .mainFont2{
+        font-family: 'Raleway', sans-serif;
+    }
+}
